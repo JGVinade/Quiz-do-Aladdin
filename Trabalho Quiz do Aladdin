@@ -1,0 +1,100 @@
+using System;
+namespace Trabalho_Quiz_Aladdin
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int pontuação = 0;
+            Console.WriteLine("Responda as questões abaixo com a letra (maiúscula) referente à alternativa assinalada:");
+            Console.WriteLine("1- O filme animado Aladdin foi lançado em:");
+             Console.WriteLine("A)1992");
+              Console.WriteLine("B)1982");
+               Console.WriteLine("C)1993");
+                Console.WriteLine("D)2019");
+                 Console.Write("R:");
+            string teste = Console.ReadLine();
+            if (teste == "A")
+            {
+                Console.WriteLine("RESPOSTA CORRETA!");
+                pontuação++;
+            }
+            else
+            {
+                Console.WriteLine("RESPOSTA INCORRETA!");
+            }
+            Console.WriteLine("2- Quem é o melhor amigo da princesa Jasmine?");
+             Console.WriteLine("A)Aladdin");
+              Console.WriteLine("B)Abu");
+               Console.WriteLine("C)Hajah");
+                Console.WriteLine("D)Sultão");
+                 Console.WriteLine("E)Jafar");
+                  Console.Write("R:");
+            string teste2 = Console.ReadLine();
+            if (teste2 == "C")
+            {
+                Console.WriteLine("RESPOSTA CORRETA!");
+                pontuação++;
+            }
+            else
+            {
+                Console.WriteLine("RESPOSTA INCORRETA!");
+            }
+            Console.WriteLine("3- Qual dessas músicas pertence a trilha sonora de Aladdin?");
+             Console.WriteLine("A)Colors of the Wind");
+              Console.WriteLine("B)Be a Man");
+               Console.WriteLine("C)Whole New World");
+                Console.WriteLine("D)Can You Feel the Love Tonight");
+                 Console.WriteLine("E)Hakuna Matata");
+                  Console.Write("R:");
+            string teste3 = Console.ReadLine();
+            if (teste3 == "C")
+            {
+                Console.WriteLine("RESPOSTA CORRETA!");
+                pontuação++;
+            }
+            else
+            {
+                Console.WriteLine("RESPOSTA INCORRETA!");
+            }
+            Console.WriteLine("4- Quntos anos o Gênio ficou na lâmpada antes de encontrar Aladdin?");
+             Console.WriteLine("A)Mil anos");
+              Console.WriteLine("B)5 mil anos");
+               Console.WriteLine("C)9 Mil anos");
+                Console.WriteLine("D)10 mil anos");
+                 Console.WriteLine("E)100 mil anos");
+                  Console.Write("R:");
+            string teste4 = Console.ReadLine();
+            if (teste4 == "D")
+            {
+                Console.WriteLine("RESPOSTA CORRETA!");
+                pontuação++;
+            }
+            else
+            {
+                Console.WriteLine("RESPOSTA INCORRETA!");
+            }
+            Console.WriteLine("5- Quntos camêlos dourados Aladdin tem, de acordo com a música Príncipe Ali?");
+             Console.WriteLine("A)60");
+              Console.WriteLine("B)70");
+               Console.WriteLine("C)80");
+                Console.WriteLine("D)90");
+                 Console.WriteLine("E)100");
+                  Console.Write("R:");
+            string teste5 = Console.ReadLine();
+            if (teste5 == "B")
+            {
+                Console.WriteLine("RESPOSTA CORRETA!");
+                pontuação++;
+            }
+            else
+            {
+                Console.WriteLine("RESPOSTA INCORRETA!");
+            }
+            {
+                Console.WriteLine($"Você acertou {pontuação} questões");
+                  Console.WriteLine("Parabéns por concluir o quiz, espero que tenha gostado!");
+            }
+        }
+    }
+}
