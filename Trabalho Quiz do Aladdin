@@ -94,6 +94,7 @@ namespace Trabalho_Quiz_Aladdin
             {
                 Console.WriteLine($"Você acertou {pontuação} questões");
                   Console.WriteLine("Parabéns por concluir o quiz, espero que tenha gostado!");
+                   Console.ReadKey();
             }
         }
     }
